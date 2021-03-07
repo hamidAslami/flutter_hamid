@@ -121,6 +121,11 @@ class ChatScreenState extends State<ChatScreen> {
     ImagePicker imagePicker = ImagePicker();
     PickedFile pickedFile;
 
+
+
+
+
+
     pickedFile = await imagePicker.getImage(source: ImageSource.gallery);
     imageFile = File(pickedFile.path);
 
